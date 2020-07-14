@@ -1,0 +1,13 @@
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.csprojAssemblyReference.cache
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.AssemblyInfoInputs.cache
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.AssemblyInfo.cs
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.csproj.CoreCompileInputs.cache
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.exe
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.deps.json
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.runtimeconfig.json
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.runtimeconfig.dev.json
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.dll
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\bin\Debug\netcoreapp3.1\chapter5exercises.pdb
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.dll
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.pdb
+C:\Users\Newforce.NEWFORCE-015\workspace\c#\book1\chapter5exercises\obj\Debug\netcoreapp3.1\chapter5exercises.genruntimeconfig.cache
