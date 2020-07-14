@@ -26,8 +26,8 @@ wordsAndDefinitions.Add("Awesome", "The feeling of students when they are learni
 wordsAndDefinitions.Add("Tired", "The feeling of starting over completely");
 wordsAndDefinitions.Add("Excited", "The feeling of learning something new that might make all the things you already learned a little easier");
 
-Console.WriteLine(wordsAndDefinitions["Excited"]);
-Console.WriteLine(wordsAndDefinitions["Tired"]);
+// Console.WriteLine(wordsAndDefinitions["Excited"]);
+// Console.WriteLine(wordsAndDefinitions["Tired"]);
 
 /*
     Use square brackets to get the definition of two of the
@@ -41,9 +41,73 @@ Console.WriteLine(wordsAndDefinitions["Tired"]);
         The definition of (WORD) is (DEFINITION)
         The definition of (WORD) is (DEFINITION)
 */
-foreach (KeyValuePair<string, string> word in wordsAndDefinitions)
+// foreach (KeyValuePair<string, string> word in wordsAndDefinitions)
+// {
+//     Console.WriteLine($"The definition of {word.Key} is {word.Value}");
+// };
+
+// Practice: List of Dictionaries about Words
+// Now, you are going to refactor the structure of our data. Instead of one C# Dictionary with key value pairs for words and definitions. You want to track more than just the word and its definition, so we are going to build a list of dictionaries.
+
+// Make a new list
+List<Dictionary<string, string>> dictionaryOfWords = new List<Dictionary<string, string>>();
+
+/*
+    You want to track the following about each word:
+        word, definition, part of speech, example sentence
+
+    Example of one dictionary in the list:
+    {
+        "word": "excited",
+        "definition": "having, showing, or characterized by a heightened state of energy, enthusiasm, eagerness",
+        "part of speech": "adjective",
+        "example sentence": "I am excited to learn C#!"
+    }
+*/
+
+// Create dictionary to represent a few words
+Dictionary<string, string> excitedWord = new Dictionary<string, string>();
+//can also add objects during instantiation inside curly braces after the parethasis
+
+
+// Add each of the 4 bits of data about the word to the Dictionary
+excitedWord.Add("word", "excited");
+excitedWord.Add("definition", "having, showing, or characterized by a heightened state of energy, enthusiasm, eagerness");
+excitedWord.Add("part of speech", "adjective");
+excitedWord.Add("example sentence", "I am excited to learn C#!");
+
+// Add Dictionary to your `dictionaryOfWords` list
+dictionaryOfWords.Add(excitedWord);
+
+
+// create another Dictionary and add that to the list
+Dictionary<string, string> flabberWord = new Dictionary<string, string>(){
+    {"word", "flabbergasted"},
+    {"definition", "doubting I understand this when I actually do"},
+    {"part of speech", "verb"},
+    {"example sentence", "I am flabbergasted at the exercises today"},
+};
+
+dictionaryOfWords.Add(flabberWord);
+
+/*
+    Iterate your list of dictionaries and output the data, You can use the two foreach() loops below to help you start your iteration.
+
+    Example output for one word in the list of dictionaries:
+        word: excited
+        definition: having, showing, or characterized by a heightened state of energy, enthusiasm, eagerness
+        part of speech: adjective
+        example sentence: I am excited to learn C#!
+*/
+
+// Iterate the List of Dictionaries
+foreach (Dictionary<string, string> singleWord in dictionaryOfWords)
 {
-    Console.WriteLine($"The definition of {word.Key} is {word.Value}");
+    // Iterate the KeyValuePairs of the Dictionary
+    foreach (KeyValuePair<string, string> wordData in singleWord)
+    {
+        Console.WriteLine($"{wordData.Key}: {wordData.Value}");
+    }
 };
         }
     }
