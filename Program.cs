@@ -90,6 +90,15 @@ Dictionary<string, string> flabberWord = new Dictionary<string, string>(){
 
 dictionaryOfWords.Add(flabberWord);
 
+Dictionary<string, string> bloopWord = new Dictionary<string, string>(){
+    {"word", "bloopfuck"},
+    {"definition", "when I try to console something but I'm ever so slightly WRONG"},
+    {"part of speech", "noun"},
+    {"example sentence", "I see a bloopfuck in my code"},
+};
+
+dictionaryOfWords.Add(bloopWord);
+
 /*
     Iterate your list of dictionaries and output the data, You can use the two foreach() loops below to help you start your iteration.
 
